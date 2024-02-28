@@ -1,2 +1,2 @@
 // Node Identifier, longitude, latitude
-N001, 
+N001 0 0
