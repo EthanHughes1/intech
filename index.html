@@ -3,14 +3,14 @@
     <head>
         <title>IN-TECH DATA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script type="text/javascript" src="scripts/login.js"></script>
+        <script type="text/javascript" src="scripts/fetchData.js"></script>
     </head>
 
     <body onload="fetchData()">
         <section class="header">
             <!-- title, fetchData button-->
             <h1>IN-TECH GNSS-IR</h1>
-            <button type="button" onclick="fetchData()">Fetch Data</button>
+            <button id="fetch_data" type="button" onclick="fetchData()">Fetch Data</button>
         </section>
         <section class="node_summary">
             <!-- left column: node identifier, long/lat, status, 'show data' selection
