@@ -7,7 +7,7 @@ function fetchData() {
             'accept': 'application/json'
             
         },
-        credentials: 'include',
+        mode: 'no-cors',
         body: ({
             'username': 'INTECH',
             'password': 'InTechSWARM' 
