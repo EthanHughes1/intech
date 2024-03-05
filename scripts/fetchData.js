@@ -3,8 +3,8 @@ function fetchData() {
     fetch('https://bumblebee.hive.swarm.space/hive/login', {
         method:'POST',
         headers: {
-            'Content-Type': '',
-            'accept': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'accept': 'application/json'
             
         },
         body: ({
