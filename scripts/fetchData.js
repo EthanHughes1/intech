@@ -4,7 +4,7 @@ function fetchData() {
         method:'POST',
         headers: {
             'Content-Type': '',
-            'accept': 'application/json'
+            'accept': 'application/x-www-form-urlencoded'
             
         },
         body: ({
